@@ -2,4 +2,26 @@ body{
 
     background-image: url(/projeto/Style/imagens/wp6922327.jpg);
     background-size: cover;
+
 }
+
+.pagination a {
+    background-color: rgb(27, 26, 26);
+    color: rgb(253, 253, 253);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+  
+
+.pagination a.active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
+  }
+  
+
+.pagination a:hover:not(.active) {background-color: #ebe8e8; color: black; }
