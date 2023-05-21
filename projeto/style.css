@@ -1,7 +1,6 @@
 body{
 
-    background-image: url(/projeto/Style/imagens/wp6922327.jpg);
-    background-size: cover;
+    background-color: #ebe8e8;
 
 }
 
@@ -17,11 +16,32 @@ body{
     width: 300px;
   }
   
+.Papel_de_parede{
+
+    background-image: url(/projeto/Style/imagens/wp6922327.jpg);
+    background-size: cover;
+
+
+  }
 
 .pagination a.active {
     background-color: rgb(0, 0, 0);
     color: rgb(240, 240, 240);
   }
+
+  .button {
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
   
 
 .pagination a:hover:not(.active) {background-color: #ebe8e8; color: black; }
