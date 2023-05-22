@@ -4,6 +4,8 @@ body{
 
 }
 
+
+
 .pagination a {
     background-color: rgb(27, 26, 26);
     color: rgb(253, 253, 253);
@@ -41,7 +43,5 @@ body{
     cursor: pointer;
     margin: 5px;
   }
-
-  
 
 .pagination a:hover:not(.active) {background-color: #ebe8e8; color: black; }
