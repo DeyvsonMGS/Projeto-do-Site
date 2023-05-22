@@ -1,6 +1,6 @@
 body{
 
-  background-color: #272727;
+    background-color: #272727;
 
 }
 
@@ -8,10 +8,11 @@ body{
 
     background-image: url(/projeto/Style/imagens/wp6922327.jpg);
     background-size: cover ;
+
+
   }
 
 .pagination a {
-  
     background-color: rgb(27, 26, 26);
     color: rgb(253, 253, 253);
     float: left;
@@ -23,7 +24,7 @@ body{
     width: 300px;
   }
 
-.pagination a.active {
+.pagination a.selecionado {
     background-color: rgb(0, 0, 0);
     color: rgb(240, 240, 240);
   }
@@ -41,4 +42,4 @@ body{
     margin: 5px;
   }
 
-.pagination a:hover:not(.active) {background-color: #ebe8e8; color: black; }
+.pagination a:hover:not(.selecionado) {background-color: #ebe8e8; color: black; }
