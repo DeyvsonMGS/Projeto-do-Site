@@ -1,0 +1,17 @@
+body{
+
+    background-color: #272727;
+
+}
+
+.Papel_de_parede{
+
+    background-image: url(Style/imagens/R.jpg);
+    background-size: cover;
+
+}
+
+.Final_do_site{
+
+    background-color: #272727;
+  }
